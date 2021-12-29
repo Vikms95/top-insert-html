@@ -8,9 +8,6 @@ const paragraph2 = document.createElement("p");
 
 const containerReference = document.querySelector(".container");
 
-
-
-
 paragraph.style.color = "red";
 paragraph.textContent = "Hey, I'm red!"
 
