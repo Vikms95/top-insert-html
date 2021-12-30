@@ -29,6 +29,21 @@ const divReference = document.querySelector(".nested-div");
 divReference.appendChild(header2);
 divReference.appendChild(paragraph2);
 
+const btnReference = document.querySelector("#btn");
+btnReference.onclick = () => alert("Hello World");
+
+const btn2Reference = document.querySelectorAll("#btn2");
+
+btn2Reference.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+});
+
+const buttons = document.querySelectorAll("button");
+buttons.forEach((button) => {
+    button.addEventListener('click',() =>{
+        alert(button.id);
+    });
+});
 
 
 
